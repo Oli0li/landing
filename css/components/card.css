@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.card {
+  background-color: rgb(255, 180, 50);
+  color: black;
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px #6f5131;
+}
+
+.card:hover {
+  transform: translate(0, -5px);
+  transition: all 0.3s ease-out;
+}
+
+.icon {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.card p {
+  width: 85%;
+  margin: 0 auto;
+}

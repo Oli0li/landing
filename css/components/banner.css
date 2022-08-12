@@ -1,0 +1,40 @@
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(248, 149, 44, 0.296)), url(../../images/ella-olsson-C1Q3qOTlegg-unsplash.jpg);
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.banner-container {
+  text-align: center;
+  width: 40%;
+}
+
+.banner-container h1 {
+  margin: 0;
+}
+
+.banner-container p {
+  color: #6f5131;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 0 1px 1px rgba(248, 149, 44, 0.933);
+}
+
+.banner-container a {
+  background-color: #fea201;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.banner-container a:hover {
+  background-color: #f3d10c;
+  color: #87643e;
+}
